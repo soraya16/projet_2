@@ -6,8 +6,7 @@
 {
 	background-color: #FEC729;
 	width: 30%;
-	margin-right: 2em;
-	float: left;
+	display: inline-block;
 }
 #maphoto
 {
@@ -47,25 +46,60 @@
 	}
 .img
 {
-	width: 70px;
-	height: 70px;
+	width: 60px;
+	height: 60px;
+	margin-left: 1em;
 }
 
-.titre
-{	
-	
-	margin-bottom: 2em;
-	margin-top: 2em;
-	border-bottom: yellow solid;
-}
-.ecole
+#blanche
 {
-	text-align: center;
-	
+	width: 60%;
+	margin-left: 5%;
+	display: inline-block;
 }
+
 h1 strong
 {
 	color:#FEC729;
 }
 
+.droite
+{
+	display: flex;
 
+}
+.titre
+{
+	margin-left: 6em;
+	border-bottom: solid;
+	border-bottom-color: yellow;
+}
+.date
+{
+	text-align: left;
+	margin-left: 3em,
+	margin-bottom: 2em;
+	margin-top: 2em;
+	line-height: 2em;
+	margin-right: 5em;
+
+}
+.ecole
+{
+	margin-left: 9em;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	line-height: 2em;
+}
+.icone
+{
+	height: 20px;
+	width:20px;
+	margin-right: 1em;
+
+}
+
+#haut
+{
+	margin-left: 16em;
+}
