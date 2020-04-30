@@ -63,34 +63,17 @@ h1 strong
 	color:#FEC729;
 }
 
-.droite
-{
-	display: flex;
 
-}
 .titre
 {
-	margin-left: 6em;
+	margin-left: 1em;
+	margin-bottom:1em;
+	margin-top: 2em;
 	border-bottom: solid;
 	border-bottom-color: yellow;
 }
-.date
-{
-	text-align: left;
-	margin-left: 3em,
-	margin-bottom: 2em;
-	margin-top: 2em;
-	line-height: 2em;
-	margin-right: 5em;
 
-}
-.ecole
-{
-	margin-left: 9em;
-	margin-bottom: 2em;
-	margin-top: 2em;
-	line-height: 2em;
-}
+
 .icone
 {
 	height: 20px;
@@ -98,8 +81,11 @@ h1 strong
 	margin-right: 1em;
 
 }
-
-#haut
+.droite
 {
-	margin-left: 16em;
+	display:flex;
+}
+.rec
+{
+	display: inline-flex;
 }
