@@ -2,6 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
+#main
+{
+	display: flex;
+	font-family: arial;
+}
 #jaune
 {
 	background-color: #FEC729;
@@ -18,7 +23,7 @@
 #nom
 {
 	padding-top: 50px;
-	margin-bottom: 30px;
+	margin-bottom: 90px;
 	margin-left: 30px;
 }
 .div_de_gauche
@@ -61,31 +66,66 @@
 h1 strong
 {
 	color:#FEC729;
+	font-family: sans-serif;
 }
 
 
 .titre
 {
 	margin-left: 1em;
-	margin-bottom:1em;
+	margin-bottom:0.5em;
 	margin-top: 2em;
-	border-bottom: solid;
-	border-bottom-color: yellow;
 }
 
-
-.icone
-{
-	height: 20px;
-	width:20px;
-	margin-right: 1em;
-
-}
 .droite
 {
 	display:flex;
+	margin-bottom: 20px;
+
 }
-.rec
+
+.yellowBorder
 {
-	display: inline-flex;
+	border-top: solid 2px #FEC729;
+	padding-top: 20px;
+}
+
+.petiteDivDroite
+{
+	width: 40%;
+	margin-left: 6em;
+}
+
+.petiteDivGauche
+{
+	width: 40%;
+}
+
+.far
+{
+	font-size: 15px;
+	color: #FEC729;
+	margin-right: 10px;
+}
+
+.fas
+{
+	font-size: 10px;
+	color: #FEC729;
+	margin-right:10px;
+}
+
+.fa-graduation-cap
+{
+	font-size: 30px;
+}
+
+.fa-briefcase
+{
+	font-size: 30px;
+}
+
+.fa-pen
+{
+	font-size: 30px;
 }
