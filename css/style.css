@@ -3,6 +3,49 @@
 	padding: 0;
 	font-family:arial,serif,sans-serif;
 }
+#divtop
+{
+	display: flex;
+}
+#maphoto
+{
+	margin-left: 0px;
+	padding-top: 32px;
+	width:30%;
+	background-color: #FACD11;
+}
+#pic
+{
+	border-radius: 50%;
+	margin-left: 65px;
+}
+#nom
+{
+	padding-top: 50px;
+	margin-bottom: 90px;
+	margin-left: 80px;
+}
+#prenom
+{
+	font-family: sans-serif;
+	font-size: 45px;
+	color: #FEC729;
+}
+
+#familyName
+{
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 45px;
+}
+#profession
+{
+	font-size: 20px;
+}
+#line
+{
+	border-bottom: 2px solid #FEC729;
+}
 #main
 {
 	display: flex;
@@ -10,14 +53,8 @@
 #jaune
 {
 	background-color: #FACD11;
-	width: 25%;
+	width: 30%;
 	display: inline-block;
-}
-#maphoto
-{
-	border-radius: 50%;
-	margin-left: 45px;
-	padding-top: 32px;
 }
 .div_de_gauche
 {
@@ -60,30 +97,11 @@ div ul
 
 #blanche
 {
-	width: 65%;
+	width: 70%;
 	margin-left: 5%;
 	display: inline-block;
 }
-#nom
-{
-	padding-top: 50px;
-	margin-bottom: 90px;
-	margin-left: 30px;
-}
-#prenom
-{
-	font-family: sans-serif;
-	font-size: 45px;
-	color: #FEC729;
-}
-#profession
-{
-	font-size: 20px;
-}
-span
-{
-	border-bottom: 2px solid #FEC729;
-}
+
 .titre
 {
 	margin-left: 16px;
@@ -143,9 +161,78 @@ span
 	margin-bottom: 15px;
 }
 
+/* media queries mobile */
+@media all and (max-width: 500px) {
+	*{
+		margin:0;
+		padding:0;
+	}
+	#divtop{
+		display: flex;
+		flex-direction: column;
+	}
+	#maphoto{
+		width: 100%;
+	}
+	#pic{
+		margin-left: 45px;
+		padding-bottom: 10px;
+	}
+	h1{
+		display: flex;
+	}
+	#prenom{
+		font-size: 25px;
+	}
+	#familyName{
+		font-size: 25px;
+	}
+	#profession{
+		font-size: 15px;
+	}
+	#main{
+		display: flex;
+		flex-direction: column-reverse;
+		
+	}
+	#jaune{
+		width: 100%;
+		font-size: 10px;
+	}
+	.titre{
+		font-size: 15px;
+	}
+	.droite{
+		margin:10px;
+	}
+	.petiteDivGauche{
+		font-size: 10px;
+		padding-right: 20px;
+		width: 40%;
+	}
+	.petiteDivDroite{
+		font-size:10px;
+		padding-left: 20px;
+		width: 40%;
+	}
+	.fa-graduation-cap{
+		font-size: 20px;
+		margin-left: 0px;
+
+	}
+	.fa-briefcase{
+		font-size: 20px;
+		margin-left:0px;
+
+	}
+	.fa-pen{
+		font-size: 20px;
+		margin-left: 0px;
+	}
+}
 
 
-1
+
 
 
 
