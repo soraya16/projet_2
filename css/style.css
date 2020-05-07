@@ -9,21 +9,22 @@
 }
 #maphoto
 {
-	margin-left: 0px;
-	padding-top: 32px;
 	width:30%;
 	background-color: #FACD11;
 }
 #pic
 {
+	display: block;
+	margin:auto;
 	border-radius: 50%;
-	margin-left: 65px;
+	
 }
 #nom
 {
 	padding-top: 50px;
 	margin-bottom: 90px;
-	margin-left: 80px;
+	width: 70%;
+	margin-left: 5%;
 }
 #prenom
 {
@@ -62,11 +63,7 @@
 	color: #FACD11;
 	text-align: center;
 	font-size: 20px;
-	margin: 25px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	margin: 25px 0px;
 }
 div ul
 {
@@ -161,8 +158,9 @@ div ul
 	margin-bottom: 15px;
 }
 
-/* media queries mobile */
+/* media queries for screens of less than 500px */
 @media all and (max-width: 500px) {
+
 	*{
 		margin:0;
 		padding:0;
@@ -171,16 +169,18 @@ div ul
 		display: flex;
 		flex-direction: column;
 	}
+
 	#maphoto{
 		width: 100%;
 	}
+
 	#pic{
-		margin-left: 45px;
-		padding-bottom: 10px;
+		margin: 20px auto;
 	}
 	h1{
 		display: flex;
 	}
+
 	#prenom{
 		font-size: 25px;
 	}
@@ -193,28 +193,50 @@ div ul
 	#main{
 		display: flex;
 		flex-direction: column-reverse;
+		width:100%;
 		
 	}
 	#jaune{
 		width: 100%;
 		font-size: 10px;
 	}
+	.div_de_gauche
+	{
+	background-color: #454340;
+	color: #FACD11;
+	text-align: center;
+	margin-top:0;
+	}
 	.titre{
 		font-size: 15px;
 	}
-	.droite{
-		margin:10px;
+
+	.droite
+	{
+		display:flex;
+		width: 100%;
+	}
+
+	h3{
+		font-size: 13px;
+	}
+
+	p
+	{
+		font-size: 14px;
 	}
 	.petiteDivGauche{
-		font-size: 10px;
-		padding-right: 20px;
-		width: 40%;
+		width: 30%;
+		margin-right: 25px;
 	}
 	.petiteDivDroite{
-		font-size:10px;
-		padding-left: 20px;
-		width: 40%;
+		width: 50%;
+		margin-left: 25px;
 	}
+	.far
+	{
+		font-size: 10px;
+	}	
 	.fa-graduation-cap{
 		font-size: 20px;
 		margin-left: 0px;
@@ -229,6 +251,10 @@ div ul
 		font-size: 20px;
 		margin-left: 0px;
 	}
+}
+
+@media all and (max-width: 800px){
+	
 }
 
 
