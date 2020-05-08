@@ -253,9 +253,66 @@ div ul
 	}
 }
 
-@media all and (max-width: 800px){
-	
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+	*{
+		margin:0;
+		padding:0;
+	}
+	#divtop{
+		display: flex;
+		width: 100%;
+	}
+
+	#maphoto{
+		width: 30%;
+	}
+
+	#pic{
+		margin: 15px auto;
+	}
+	h1{
+		display: flex;
+		width: 70%;
+	}
+	#prenom{
+		margin-right: 10px;
+	}
+	#main{
+		display: flex;
+		width:100%;
+		
+	}
+	#jaune{
+		width: 30%;
+		font-size: 10px;
+	}
+	#blanche{
+		width: 70%;
+	}
+
+	.droite
+	{
+		display:flex;
+		width: 100%;
+	}
+	.petiteDivGauche{
+		width: 30%;
+		margin-right: 30px;
+	}
+	.petiteDivDroite{
+		width: 50%;
+		margin-left: 30px;
+	}
+	.icon{
+		font-size: 20px;
+	}
+	p{
+		font-size: 14px;
+	}
+
 }
+		
+
 
 
 
