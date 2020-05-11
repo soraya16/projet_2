@@ -15,7 +15,8 @@
 #pic
 {
 	display: block;
-	margin:auto;
+	margin: auto;
+	margin-top: 20px;
 	border-radius: 50%;
 	
 }
@@ -102,28 +103,26 @@ div ul
 .titre
 {
 	margin-left: 16px;
-	margin-bottom:8px;
+	margin-bottom: 40px;
 	margin-top: 32px;
+	padding-bottom: 10px;
+	border-bottom: solid 2px #FEC729;
 }
 .droite
 {
 	display:flex;
 	margin-bottom: 20px;
 }
-.yellowBorder
-{
-	border-top: solid 2px #FEC729;
-	padding-top: 40px;
-}
 .petiteDivDroite
 {
 	width: 40%;
-	margin-left: 96px;
+	margin-left: 95px;
 }
 .petiteDivGauche
 {
 	width: 40%;
 	font-size: 15px;
+
 }
 .far
 {
@@ -153,9 +152,7 @@ div ul
 {
 	color: #0E0E0D;
 	font-size: 40px;
-	margin-left: 25px;
-	margin-top: 0px;
-	margin-bottom: 15px;
+	margin: auto;
 }
 
 /* media queries for screens of less than 500px */
@@ -177,24 +174,39 @@ div ul
 	#pic{
 		margin: 20px auto;
 	}
+	h3{
+		font-size: 80%;
+	}
+	h4{
+		font-size: 80%;
+	}
+	p{
+		font-size: 80%;
+	}
 	h1{
 		display: flex;
 	}
-
+	
+	#nom{
+		margin: auto;
+	}
 	#prenom{
-		font-size: 25px;
+		font-size: 70%;
+		margin-right: 5px;
 	}
 	#familyName{
-		font-size: 25px;
+		font-size: 70%;
 	}
 	#profession{
-		font-size: 15px;
+		font-size: 80%;
 	}
 	#main{
-		display: flex;
 		flex-direction: column-reverse;
 		width:100%;
 		
+	}
+	#blanche{
+		width: 90%;
 	}
 	#jaune{
 		width: 100%;
@@ -216,22 +228,12 @@ div ul
 		display:flex;
 		width: 100%;
 	}
-
-	h3{
-		font-size: 13px;
-	}
-
-	p
-	{
-		font-size: 14px;
-	}
 	.petiteDivGauche{
-		width: 30%;
-		margin-right: 25px;
+		width: 50%;
 	}
 	.petiteDivDroite{
 		width: 50%;
-		margin-left: 25px;
+		margin-left: 9px;
 	}
 	.far
 	{
@@ -239,20 +241,20 @@ div ul
 	}	
 	.fa-graduation-cap{
 		font-size: 20px;
-		margin-left: 0px;
 
 	}
 	.fa-briefcase{
 		font-size: 20px;
-		margin-left:0px;
-
 	}
 	.fa-pen{
 		font-size: 20px;
-		margin-left: 0px;
+	}
+	.icon{
+		margin:auto;
 	}
 }
 
+	/* media queries for 768-1024 tab*/
 @media only screen and (max-width: 1024px) and (min-width: 768px){
 	*{
 		margin:0;
@@ -268,11 +270,16 @@ div ul
 	}
 
 	#pic{
-		margin: 15px auto;
+		margin:20px;
+		width: 85%;
+		height: 80%;
 	}
 	h1{
 		display: flex;
 		width: 70%;
+	}
+	#nom{
+		margin-top: 25px;
 	}
 	#prenom{
 		margin-right: 10px;
