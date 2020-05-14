@@ -3,6 +3,7 @@
 	padding: 0;
 	font-family:arial,serif,sans-serif;
 }
+/* Css header photo et nom */
 #divtop
 {
 	display: flex;
@@ -52,6 +53,7 @@
 {
 	display: flex;
 }
+/* Css aside partie jaune */
 #jaune
 {
 	background-color: #FACD11;
@@ -93,6 +95,7 @@ div ul
 	display: flex;
 }
 
+/* Css article partie blanche*/
 #blanche
 {
 	width: 70%;
@@ -254,7 +257,7 @@ div ul
 	}
 }
 
-	/* media queries for 768-1024 tab*/
+/* media queries for 768-1024 tab*/	
 @media only screen and (max-width: 1024px) and (min-width: 768px){
 	*{
 		margin:0;
